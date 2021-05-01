@@ -557,6 +557,21 @@ margin-bottom: 0rem;
 
 @media (max-width: 768px) {
 
+  .autologous-bone-marr {
+width: 100%;
+  }
+	.custom-list li:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-image: url(images/hospital.png);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 10%;
+    transform: translateY(-8%);
+}
   .form-control {
     display: block;
     width: 100%;
